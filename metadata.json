@@ -1,0 +1,6 @@
+{
+  "name": "CampusVault - Academic Archives",
+  "description": "Curated academic transcripts, lecture handouts, and verified past university question schemes for collegiate engineering students.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

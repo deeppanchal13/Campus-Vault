@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Newsreader", Georgia, serif;
+  --font-headline: "Newsreader", Georgia, serif;
+  --font-body: "DM Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-sans: "DM Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+
+  --color-primary: #023625;
+  --color-primary-container: #1f4d3a;
+  --color-primary-fixed: #bceed3;
+  --color-primary-fixed-dim: #a1d1b8;
+  --color-on-primary: #ffffff;
+  
+  --color-secondary: #7f5700;
+  --color-secondary-fixed: #ffdeae;
+  --color-secondary-fixed-variant: #604100;
+  --color-secondary-container: #feb62f;
+
+  --color-surface: #fdf8f5;
+  --color-surface-container: #f2ede9;
+  --color-surface-container-low: #f7f3ef;
+  --color-surface-container-high: #ece7e4;
+  --color-surface-container-highest: #e6e2de;
+  --color-surface-container-lowest: #ffffff;
+
+  --color-on-surface: #1c1b19;
+  --color-on-surface-variant: #414944;
+  --color-outline: #717973;
+  --color-outline-variant: #c0c9c2;
+  --color-background: #fdf8f5;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  background-color: #fdf8f5;
+  color: #1c1b19;
+}
+
+.font-serif-editorial {
+  font-family: "Newsreader", Georgia, serif;
+}
+
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  vertical-align: middle;
+}
